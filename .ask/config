@@ -1,0 +1,28 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.cfdee7e0-7382-44ba-8ba7-4692c7222404",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "a3c5cdb4d55908cb7af7b2496e03e0f3"
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:eu-west-1:047616889920:function:TESASK",
+            "awsRegion": "eu-west-1",
+            "codeUri": "lambda/eu-west-1_TESASK",
+            "functionName": "TESASK",
+            "handler": "index.handler",
+            "revisionId": "bf0755a4-0aa9-41a1-b1c5-bd8af23ccf6b",
+            "runtime": "nodejs12.x"
+          }
+        ]
+      }
+    }
+  }
+}

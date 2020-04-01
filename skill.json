@@ -1,0 +1,21 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "TESASK",
+          "sourceDir": "lambda\\eu-west-1_TESASK"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "name": "ASKTEST"
+        }
+      }
+    }
+  }
+}
